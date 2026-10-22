@@ -1,0 +1,15 @@
+{
+  "name": "flipkart-playwright",
+  "version": "1.0.0",
+  "description": "Simple Playwright POM framework for Flipkart UI automation",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.47.0"
+  }
+}
